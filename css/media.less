@@ -1,0 +1,458 @@
+
+/*==============================    ШРИФТЫ    =============================*/
+	@font-face {
+	    font-family: 'pfdintextcondprobold';
+	    src: url('fonts/pfdintextcondprobold.eot');
+	    src: url('fonts/pfdintextcondprobold.eot') format('embedded-opentype'),
+	         url('fonts/pfdintextcondprobold.woff2') format('woff2'),
+	         url('fonts/pfdintextcondprobold.woff') format('woff'),
+	         url('fonts/pfdintextcondprobold.ttf') format('truetype'),
+	         url('fonts/pfdintextcondprobold.svg#pfdintextcondprobold') format('svg');
+	}
+	@font-face {
+	    font-family: 'pfdintextcondprolight';
+	    src: url('fonts/pfdintextcondprolight.eot');
+	    src: url('fonts/pfdintextcondprolight.eot') format('embedded-opentype'),
+	         url('fonts/pfdintextcondprolight.woff2') format('woff2'),
+	         url('fonts/pfdintextcondprolight.woff') format('woff'),
+	         url('fonts/pfdintextcondprolight.ttf') format('truetype'),
+	         url('fonts/pfdintextcondprolight.svg#pfdintextcondprolight') format('svg');
+	}
+	@font-face {
+	    font-family: 'pfdintextcondpromedium';
+	    src: url('fonts/pfdintextcondpromedium.eot');
+	    src: url('fonts/pfdintextcondpromedium.eot') format('embedded-opentype'),
+	         url('fonts/pfdintextcondpromedium.woff2') format('woff2'),
+	         url('fonts/pfdintextcondpromedium.woff') format('woff'),
+	         url('fonts/pfdintextcondpromedium.ttf') format('truetype'),
+	         url('fonts/pfdintextcondpromedium.svg#pfdintextcondpromedium') format('svg');
+	}
+
+	.bold{
+		font-family: "pfdintextcondprobold";
+	}
+	.med{
+		font-family: "pfdintextcondpromedium";
+	}
+	.light{
+		font-family: "pfdintextcondprolight";
+	}
+
+.dropdown-toggle{
+
+	border: 1px solid #000;
+	padding: 10px 15px;	
+	margin-top: 10px;	
+	border-radius: 5px;	
+	color: #666;	
+	margin-left: -20px;
+	&:hover{
+		background-color: #666;	
+		color: #fff;	
+	}
+	i{
+		font-size: 18px;	
+		margin-top: 10px;	
+	}
+}
+@media(min-width:0px) and (max-width:320px) {
+	nav{
+
+		top: 0;	
+		height: 60px;	
+		padding-top: 10px;	
+		.phone_mobile h5{
+			.bold;
+			text-align: right;	
+			color: #666;	
+		}
+	}
+	section#main{
+		.main_header{
+
+			h1{
+				font-size: 14px;	
+				text-align: center;	
+				margin-bottom: 30px;	
+				span{
+					line-height: 1.7;	
+					 padding: 10px;	
+				}
+			}
+		}
+		h3{
+			font-size: 13px;
+			text-align: center;		
+		}
+		.main_buttons{
+			button{
+				display: block;	
+				margin: 0 auto;				
+			}
+			button#get_measurer{
+				padding: 10px 20px;	
+				font-size: 12px;	
+				margin-bottom: 10px;
+			}
+			button#get_types{
+				padding: 10px 26px;	
+				font-size: 12px;	
+				margin-bottom: 10px;
+				display: block;
+				margin: 0 auto;
+			}
+
+		}
+	}
+	section#types{
+		.card{
+			font-size: 12px;
+		}
+		button.more_btn,button.offer{
+			font-size: 12px;
+		}
+	}
+	section#help{
+		button{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	section#offer{
+		h4,h3,p{
+			text-align: center;
+		}
+		input{
+			margin-top: 5px;
+		}
+		button{
+			margin-top: 10px;
+		}
+	}
+	section#feedback{
+		.fotorama{
+			display: none;
+		}
+		.item{
+			text-align: center;			
+			height: 530px;
+			p{
+				font-size: 14px;
+			}
+		}
+	}
+	footer{
+		text-align: center;
+		.andreyelek{
+			text-align: center;			
+		}
+	}
+	.big_modal{
+		h4{
+			font-size: 14px;
+			text-align: center;
+			margin-left: 0;
+		}
+		p{
+			font-size: 14px;
+		}
+		width: 90%;
+		margin-top: 10%;
+	}
+}
+
+@media(min-width:321px) and (max-width:480px) {
+	nav{
+
+		top: 0;	
+		height: 60px;	
+		padding-top: 10px;	
+		.phone_mobile h5{
+			.bold;
+			text-align: right;	
+			color: #666;	
+		}
+	}
+	section#main{
+		.main_header{
+
+			h1{
+				font-size: 17px;	
+				text-align: center;	
+				margin-bottom: 30px;	
+				span{
+					line-height: 1.7;	
+					 padding: 10px;	
+				}
+			}
+		}
+		h3{
+			font-size: 13px;
+			text-align: center;		
+		}
+		.main_buttons{
+			button{
+				display: block;	
+				margin: 0 auto;				
+			}
+			button#get_measurer{
+				padding: 15px 27px;	
+				font-size: 12px;	
+				margin-bottom: 10px;
+			}
+			button#get_types{
+				padding: 15px 34px;	
+				font-size: 12px;	
+				margin-bottom: 10px;
+				display: block;
+				margin: 0 auto;
+			}
+
+		}
+	}
+	section#types{
+		.card{
+			font-size: 12px;
+		}
+		button.more_btn,button.offer{
+			font-size: 12px;
+		}
+	}
+	section#help{
+		button{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	section#offer{
+		h4,h3,p{
+			text-align: center;
+		}
+		input{
+			margin-top: 5px;
+		}
+		button{
+			margin-top: 10px;
+		}
+	}
+	section#feedback{
+		.fotorama{
+			display: none;
+		}
+		.item{
+			text-align: center;			
+			height: 530px;
+			p{
+				font-size: 14px;
+			}
+		}
+	}
+	footer{
+		text-align: center;
+		.andreyelek{
+			text-align: center;			
+		}
+	}
+	.big_modal{
+		h4{
+			font-size: 14px;
+			text-align: center;
+			margin-left: 0;
+		}
+		p{
+			font-size: 14px;
+		}
+		width: 90%;
+		margin-top: 10%;
+	}
+	
+}
+
+@media(min-width:481px) and (max-width:768px) {
+
+	nav{
+
+		top: 0;	
+		height: 60px;	
+		padding-top: 10px;	
+		.phone_mobile h5{
+			.bold;
+			text-align: right;	
+			color: #666;	
+		}
+	}
+	section#main{
+		.main_header{
+
+			h1{
+				font-size: 22px;	
+				text-align: center;	
+				margin-bottom: 30px;	
+				span{
+					line-height: 1.7;	
+					 padding: 10px;	
+				}
+			}
+		}
+		h3{
+			font-size: 16px;
+			text-align: center;		
+		}
+		.main_buttons{
+			button{
+				display: block;	
+				margin: 0 auto;				
+			}
+			button#get_measurer{
+				padding: 15px 27px;	
+				font-size: 18px;	
+				margin-bottom: 10px;
+			}
+			button#get_types{
+				padding: 15px 38px;	
+				font-size: 18px;	
+				margin-bottom: 10px;
+				display: block;
+				margin: 0 auto;
+			}
+
+		}
+	}
+	section#types{
+		.card{
+			font-size: 12px;
+		}
+		button.more_btn,button.offer{
+			font-size: 12px;
+		}
+	}
+	section#help{
+		button{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	section#offer{
+		h4,h3,p{
+			text-align: center;
+		}
+		input{
+			margin-top: 5px;
+		}
+		button{
+			margin-top: 10px;
+		}
+	}
+	section#feedback{
+		.fotorama{
+			display: none;
+		}
+		.item{
+			text-align: center;			
+			height: 430px;
+			p{
+				font-size: 14px;
+			}
+		}
+	}
+	footer{
+		text-align: center;
+		.andreyelek{
+			text-align: center;			
+		}
+	}
+	.big_modal{
+		h4{
+			font-size: 14px;
+			text-align: center;
+			margin-left: 0;
+		}
+		p{
+			font-size: 18px;
+		}
+		width: 95%;
+		margin-top: 10%;
+	}
+	
+}
+
+@media(min-width:769px) and (max-width:992px) {
+	header{
+		.descript{
+			h4{
+				font-size: 16px;
+			}
+			.phone_number{
+				a{
+					font-size: 15px;
+				}
+			}
+		}
+		ul.list-inline{
+			text-align: center;
+			a{
+				margin-right: 0 auto;
+			}
+		}
+	}
+	section#feedback{
+		.item{
+				height: 380px !important;
+			p{
+				font-size: 15px;
+			}
+		}
+	}
+	.contacts_attr{
+		padding-left: 50px;
+	}
+	.policy{
+		padding-top: 10px;
+	}
+	.big_modal{
+		h4{
+			font-size: 14px;
+			text-align: center;
+			margin-left: 0;
+		}
+		p{
+			font-size: 18px;
+		}
+		width: 95%;
+		margin-top: 10%;
+	}
+}
+
+@media(min-width:993px) and (max-width:1200px) {
+	section#feedback{
+		.item{
+			height: 350px;
+			p{
+				font-size: 16px;
+			}
+		}
+	}
+	.big_modal{
+		h4{
+			font-size: 14px;
+			text-align: center;
+			margin-left: 0;
+		}
+		p{
+			font-size: 18px;
+		}
+		width: 95%;
+		margin-top: 10%;
+	}
+}
+@media(min-width:1200px) {
+	section#feedback{
+		.item{
+			height: 350px;
+			p{
+				font-size: 16px;
+			}
+		}
+	}
+	
+}
